@@ -123,7 +123,7 @@ export const JOB_CATEGORIES: IJobCategory[] = mapIcmsToMcfJobCategories();
  *************************************/
 export enum SCHEME_ID {
   P_MAX = 1,
-  PCP = 2,
+  CCP = 2,
   CAREER_TRIAL = 3,
   CAREER_SUPPORT = 4,
 }
@@ -146,10 +146,10 @@ export const SCHEMES: IScheme[] = [
   },
   {
     id: 2,
-    scheme: 'Professional Conversion Programme',
+    scheme: 'Career Conversion Programme',
     startDate: '1977-05-25',
     expiryDate: '2055-05-04',
-    link: 'http://www.wsg.gov.sg/programmes-and-initiatives/professional-conversion-programmes-employers.html',
+    link: 'https://www.wsg.gov.sg/programmes-and-initiatives/career-conversion-programmes-employers.html',
   },
   {
     id: 3,
