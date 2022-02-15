@@ -11,13 +11,13 @@ describe('mapIcmsToMcfScheme', () => {
       link: 'http://www.wsg.gov.sg/programmes-and-initiatives/wsg-career-support-programme-employers.html',
     });
   });
-  it('should map to Professional Conversion Programme when id is 541002', () => {
+  it('should map to Career Conversion Programme when id is 541002', () => {
     expect(mapIcmsToMcfScheme(541002)).to.deep.equal({
       id: 2,
-      scheme: 'Professional Conversion Programme',
+      scheme: 'Career Conversion Programme',
       startDate: '1977-05-25',
       expiryDate: '2055-05-04',
-      link: 'http://www.wsg.gov.sg/programmes-and-initiatives/professional-conversion-programmes-employers.html',
+      link: 'https://www.wsg.gov.sg/programmes-and-initiatives/career-conversion-programmes-employers.html',
     });
   });
   it('should map to P-Max when id is 541003', () => {
@@ -65,13 +65,13 @@ describe('mapMsfToMcfScheme', () => {
       link: 'http://www.wsg.gov.sg/programmes-and-initiatives/wsg-career-support-programme-employers.html',
     });
   });
-  it('should map to Professional Conversion Programme when id is 05', () => {
+  it('should map to Career Conversion Programme when id is 05', () => {
     expect(mapMsfToMcfScheme('05')).to.deep.equal({
       id: 2,
-      scheme: 'Professional Conversion Programme',
+      scheme: 'Career Conversion Programme',
       startDate: '1977-05-25',
       expiryDate: '2055-05-04',
-      link: 'http://www.wsg.gov.sg/programmes-and-initiatives/professional-conversion-programmes-employers.html',
+      link: 'https://www.wsg.gov.sg/programmes-and-initiatives/career-conversion-programmes-employers.html',
     });
   });
   it('should map to P-Max when id is 02', () => {

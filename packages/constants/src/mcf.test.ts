@@ -92,10 +92,10 @@ describe('mcf', () => {
       },
       {
         id: 2,
-        scheme: 'Professional Conversion Programme',
+        scheme: 'Career Conversion Programme',
         startDate: '1977-05-25',
         expiryDate: '2055-05-04',
-        link: 'http://www.wsg.gov.sg/programmes-and-initiatives/professional-conversion-programmes-employers.html',
+        link: 'https://www.wsg.gov.sg/programmes-and-initiatives/career-conversion-programmes-employers.html',
       },
       {
         id: 3,
